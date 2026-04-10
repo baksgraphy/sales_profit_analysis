@@ -1,28 +1,44 @@
-# Sales and Profit Analysis (Excel)
+# Sales and Profit Analysis (Excel + Python)
 
 ## 📌 Overview
-This is my first project uploaded to GitHub.  
-It contains an Excel dataset analyzing sales and profit performance.  
-The goal is to track revenue, identify profit trends, and highlight periods of loss.
+This project explores sales and profit performance using Excel and Python.  
+It demonstrates how raw business data can be transformed into actionable insights through:
+- Data cleaning
+- Statistical summaries
+- Visualizations with matplotlib
 
-## 📂 Files
-- `sale and profit.xlsx` → Raw dataset with sales and profit figures.
+## 📂 Files in Repository
+- **sale and profit.xlsx** → Raw dataset
+- **sales_profit_clean.csv** → Cleaned dataset
+- **analysis.py** → Python analysis script
+- **profit_trend.png** → Profit trend chart
+- **sales_profit_category.png** → Sales vs Profit by Category
+- **top10_products_profit.png** → Top 10 Products by Profit
 
-## 📊 Insights
-- Positive values represent profit, while negative values indicate losses.  
-- The dataset can be used to calculate:
-  - Total sales
-  - Total profit
-  - Monthly or quarterly trends
-  - Loss periods vs. profit periods
+## 📊 Key Insights
+- **Total Sales:** 2,295,509.57  
+- **Total Profit:** 286,013.82  
+- **Average Profit per Order:** 28.64  
+
+## 📈 Visualizations
+Profit and sales trends generated with Python (matplotlib):
+
+![Profit Trend](profit_trend.png)  
+![Sales vs Profit by Category](sales_profit_category.png)  
+![Top 10 Products by Profit](top10_products_profit.png)
+
+## 🛠️ Tools Used
+- **Excel** → Initial dataset exploration  
+- **Python (pandas)** → Data cleaning and statistical analysis  
+- **Matplotlib** → Visualizations  
+
+## 💡 Skills Demonstrated
+- Data cleaning and export (Excel → CSV → Python)  
+- Grouping and aggregation with pandas  
+- Chart creation with matplotlib  
+- Documentation and portfolio presentation on GitHub  
 
 ## 🚀 Next Steps
-- Convert the Excel file to CSV for easier integration with SQL and Python.  
-- Write SQL queries to calculate cumulative sales and profit.  
-- Use Python (`pandas`, `matplotlib`) to visualize trends.  
-- Add charts (line graphs, bar charts) to show profit fluctuations over time.
-
-## 💡 Learning Outcome
-This project demonstrates how Excel can be the starting point for data analysis.  
-Future versions will expand into SQL queries and Python visualizations to build a complete fintech portfolio.
-
+- Add SQL queries for deeper analysis  
+- Explore monthly/quarterly trends  
+- Expand into business insights for decision‑making
